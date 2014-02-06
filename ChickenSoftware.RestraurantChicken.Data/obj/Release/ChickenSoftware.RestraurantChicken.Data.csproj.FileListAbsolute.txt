@@ -1,0 +1,10 @@
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\ChickenSoftware.RestraurantChicken.Data.dll.config
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\ChickenSoftware.RestraurantChicken.Data.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\ChickenSoftware.RestraurantChicken.Data.pdb
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\EntityFramework.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\EntityFramework.xml
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\obj\Release\ChickenSoftware.RestraurantChicken.Data.csprojResolveAssemblyReference.cache
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\obj\Release\ChickenSoftware.RestraurantChicken.Data.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Data\obj\Release\ChickenSoftware.RestraurantChicken.Data.pdb

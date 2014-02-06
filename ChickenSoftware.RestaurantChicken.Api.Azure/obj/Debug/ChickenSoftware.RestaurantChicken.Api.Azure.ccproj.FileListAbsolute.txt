@@ -1,0 +1,2 @@
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Api.Azure\bin\Debug\ServiceConfiguration.cscfg
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Api.Azure\bin\Debug\ServiceDefinition.csdef

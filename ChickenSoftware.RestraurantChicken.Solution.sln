@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenSoftware.RestraurantChicken.Data", "ChickenSoftware.RestraurantChicken.Data\ChickenSoftware.RestraurantChicken.Data.csproj", "{9A42E25C-402B-4F0A-BAAF-F52552B2B110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenSoftware.RestaurantChicken.Api", "ChickenSoftware.RestaurantChicken.Api\ChickenSoftware.RestaurantChicken.Api.csproj", "{B8488FF4-FEAA-4BCE-BA1F-5E888B11F196}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ChickenSoftware.RestaurantChicken.Api.Azure", "ChickenSoftware.RestaurantChicken.Api.Azure\ChickenSoftware.RestaurantChicken.Api.Azure.ccproj", "{5BA66D03-8691-4CA9-8E5A-5B7A5FD2171C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChickenSoftware.RestraurantChicken.Analysis", "ChickenSoftware.RestraurantChicken.Analysis\ChickenSoftware.RestraurantChicken.Analysis.fsproj", "{B1A1C408-C737-41E1-B0C7-59A27C7DB0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenSoftware.RestaurantChicken.Analysis.Tests", "ChickenSoftware.RestaurantChicken.Analysis.Tests\ChickenSoftware.RestaurantChicken.Analysis.Tests.csproj", "{B5744460-5F0C-40BE-BAA9-D554BFDAB64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenSoftware.RestaurantChicken.Analysis.UI", "ChickenSoftware.RestaurantChicken.Analysis.UI\ChickenSoftware.RestaurantChicken.Analysis.UI.csproj", "{D4651D70-E780-4BB1-B3EF-12833902DF63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A42E25C-402B-4F0A-BAAF-F52552B2B110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A42E25C-402B-4F0A-BAAF-F52552B2B110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A42E25C-402B-4F0A-BAAF-F52552B2B110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A42E25C-402B-4F0A-BAAF-F52552B2B110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8488FF4-FEAA-4BCE-BA1F-5E888B11F196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8488FF4-FEAA-4BCE-BA1F-5E888B11F196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8488FF4-FEAA-4BCE-BA1F-5E888B11F196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8488FF4-FEAA-4BCE-BA1F-5E888B11F196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA66D03-8691-4CA9-8E5A-5B7A5FD2171C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA66D03-8691-4CA9-8E5A-5B7A5FD2171C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA66D03-8691-4CA9-8E5A-5B7A5FD2171C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA66D03-8691-4CA9-8E5A-5B7A5FD2171C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A1C408-C737-41E1-B0C7-59A27C7DB0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A1C408-C737-41E1-B0C7-59A27C7DB0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A1C408-C737-41E1-B0C7-59A27C7DB0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A1C408-C737-41E1-B0C7-59A27C7DB0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5744460-5F0C-40BE-BAA9-D554BFDAB64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5744460-5F0C-40BE-BAA9-D554BFDAB64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5744460-5F0C-40BE-BAA9-D554BFDAB64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5744460-5F0C-40BE-BAA9-D554BFDAB64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4651D70-E780-4BB1-B3EF-12833902DF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4651D70-E780-4BB1-B3EF-12833902DF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4651D70-E780-4BB1-B3EF-12833902DF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4651D70-E780-4BB1-B3EF-12833902DF63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

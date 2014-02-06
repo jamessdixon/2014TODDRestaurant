@@ -1,0 +1,9 @@
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.dll.config
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.XML
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.pdb
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\FSharp.Core.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\bin\Debug\FSharp.Core.xml
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\obj\Debug\ChickenSoftware.RestraurantChicken.Analysis.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestraurantChicken.Analysis\obj\Debug\ChickenSoftware.RestraurantChicken.Analysis.pdb

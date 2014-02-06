@@ -1,0 +1,9 @@
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.dll.config
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.pdb
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.pdb
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\bin\Debug\ChickenSoftware.RestraurantChicken.Analysis.xml
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\obj\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.csprojResolveAssemblyReference.cache
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\obj\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.dll
+C:\Git\ChickenSoftware.RestraurantChicken.Solution\ChickenSoftware.RestaurantChicken.Analysis.Tests\obj\Debug\ChickenSoftware.RestaurantChicken.Analysis.Tests.pdb

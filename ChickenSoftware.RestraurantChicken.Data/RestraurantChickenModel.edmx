@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="RestaurantChickenModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NonRestaurants">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="InspectionID" Type="nvarchar" MaxLength="255" />
+          <Property Name="InspectorID" Type="int" />
+          <Property Name="EstablishmentID" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentName" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentAddress" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentCity" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmnetZipCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentLat" Type="float" />
+          <Property Name="EstablishmentLong" Type="float" />
+          <Property Name="EstablishmentTypeDesc" Type="nvarchar" MaxLength="255" />
+          <Property Name="InspectionScore" Type="float" />
+          <Property Name="InspectionDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Restaurants">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="InspectionID" Type="nvarchar" MaxLength="255" />
+          <Property Name="InspectorID" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentID" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentName" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentAddress" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentCity" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmnetZipCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="EstablishmentLat" Type="float" />
+          <Property Name="EstablishmentLong" Type="float" />
+          <Property Name="EstablishmentTypeDesc" Type="nvarchar" MaxLength="255" />
+          <Property Name="InspectionScore" Type="float" />
+          <Property Name="InspectionDate" Type="datetime" />
+          <Property Name="Core" Type="int" />
+          <Property Name="Non-Critical" Type="int" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="Priority Foundation" Type="int" />
+        </EntityType>
+        <EntityContainer Name="RestaurantChickenModelStoreContainer">
+          <EntitySet Name="NonRestaurants" EntityType="Self.NonRestaurants" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Restaurants" EntityType="Self.Restaurants" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RestaurantChickenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NonRestaurant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="InspectionID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="InspectorID" Type="Int32" />
+          <Property Name="EstablishmentID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentCity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmnetZipCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentLat" Type="Double" />
+          <Property Name="EstablishmentLong" Type="Double" />
+          <Property Name="EstablishmentTypeDesc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="InspectionScore" Type="Double" />
+          <Property Name="InspectionDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Restaurant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="InspectionID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="InspectorID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentCity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmnetZipCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EstablishmentLat" Type="Double" />
+          <Property Name="EstablishmentLong" Type="Double" />
+          <Property Name="EstablishmentTypeDesc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="InspectionScore" Type="Double" />
+          <Property Name="InspectionDate" Type="DateTime" Precision="3" />
+          <Property Name="Core" Type="Int32" />
+          <Property Name="Non_Critical" Type="Int32" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="Priority_Foundation" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="RestaurantChickenEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NonRestaurants" EntityType="Self.NonRestaurant" />
+          <EntitySet Name="Restaurants" EntityType="Self.Restaurant" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RestaurantChickenModelStoreContainer" CdmEntityContainer="RestaurantChickenEntities">
+          <EntitySetMapping Name="NonRestaurants">
+            <EntityTypeMapping TypeName="RestaurantChickenModel.NonRestaurant">
+              <MappingFragment StoreEntitySet="NonRestaurants">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="InspectionID" ColumnName="InspectionID" />
+                <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+                <ScalarProperty Name="EstablishmentID" ColumnName="EstablishmentID" />
+                <ScalarProperty Name="EstablishmentName" ColumnName="EstablishmentName" />
+                <ScalarProperty Name="EstablishmentAddress" ColumnName="EstablishmentAddress" />
+                <ScalarProperty Name="EstablishmentCity" ColumnName="EstablishmentCity" />
+                <ScalarProperty Name="EstablishmnetZipCode" ColumnName="EstablishmnetZipCode" />
+                <ScalarProperty Name="EstablishmentLat" ColumnName="EstablishmentLat" />
+                <ScalarProperty Name="EstablishmentLong" ColumnName="EstablishmentLong" />
+                <ScalarProperty Name="EstablishmentTypeDesc" ColumnName="EstablishmentTypeDesc" />
+                <ScalarProperty Name="InspectionScore" ColumnName="InspectionScore" />
+                <ScalarProperty Name="InspectionDate" ColumnName="InspectionDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Restaurants">
+            <EntityTypeMapping TypeName="RestaurantChickenModel.Restaurant">
+              <MappingFragment StoreEntitySet="Restaurants">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="InspectionID" ColumnName="InspectionID" />
+                <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+                <ScalarProperty Name="EstablishmentID" ColumnName="EstablishmentID" />
+                <ScalarProperty Name="EstablishmentName" ColumnName="EstablishmentName" />
+                <ScalarProperty Name="EstablishmentAddress" ColumnName="EstablishmentAddress" />
+                <ScalarProperty Name="EstablishmentCity" ColumnName="EstablishmentCity" />
+                <ScalarProperty Name="EstablishmnetZipCode" ColumnName="EstablishmnetZipCode" />
+                <ScalarProperty Name="EstablishmentLat" ColumnName="EstablishmentLat" />
+                <ScalarProperty Name="EstablishmentLong" ColumnName="EstablishmentLong" />
+                <ScalarProperty Name="EstablishmentTypeDesc" ColumnName="EstablishmentTypeDesc" />
+                <ScalarProperty Name="InspectionScore" ColumnName="InspectionScore" />
+                <ScalarProperty Name="InspectionDate" ColumnName="InspectionDate" />
+                <ScalarProperty Name="Core" ColumnName="Core" />
+                <ScalarProperty Name="Non_Critical" ColumnName="Non-Critical" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Priority_Foundation" ColumnName="Priority Foundation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

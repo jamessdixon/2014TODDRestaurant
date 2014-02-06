@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RestaurantChickenModelStoreContainer" CdmEntityContainer="RestaurantChickenEntities">
+    <EntitySetMapping Name="NonRestaurants">
+      <EntityTypeMapping TypeName="RestaurantChickenModel.NonRestaurant">
+        <MappingFragment StoreEntitySet="NonRestaurants">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InspectionID" ColumnName="InspectionID" />
+          <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+          <ScalarProperty Name="EstablishmentID" ColumnName="EstablishmentID" />
+          <ScalarProperty Name="EstablishmentName" ColumnName="EstablishmentName" />
+          <ScalarProperty Name="EstablishmentAddress" ColumnName="EstablishmentAddress" />
+          <ScalarProperty Name="EstablishmentCity" ColumnName="EstablishmentCity" />
+          <ScalarProperty Name="EstablishmnetZipCode" ColumnName="EstablishmnetZipCode" />
+          <ScalarProperty Name="EstablishmentLat" ColumnName="EstablishmentLat" />
+          <ScalarProperty Name="EstablishmentLong" ColumnName="EstablishmentLong" />
+          <ScalarProperty Name="EstablishmentTypeDesc" ColumnName="EstablishmentTypeDesc" />
+          <ScalarProperty Name="InspectionScore" ColumnName="InspectionScore" />
+          <ScalarProperty Name="InspectionDate" ColumnName="InspectionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Restaurants">
+      <EntityTypeMapping TypeName="RestaurantChickenModel.Restaurant">
+        <MappingFragment StoreEntitySet="Restaurants">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InspectionID" ColumnName="InspectionID" />
+          <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+          <ScalarProperty Name="EstablishmentID" ColumnName="EstablishmentID" />
+          <ScalarProperty Name="EstablishmentName" ColumnName="EstablishmentName" />
+          <ScalarProperty Name="EstablishmentAddress" ColumnName="EstablishmentAddress" />
+          <ScalarProperty Name="EstablishmentCity" ColumnName="EstablishmentCity" />
+          <ScalarProperty Name="EstablishmnetZipCode" ColumnName="EstablishmnetZipCode" />
+          <ScalarProperty Name="EstablishmentLat" ColumnName="EstablishmentLat" />
+          <ScalarProperty Name="EstablishmentLong" ColumnName="EstablishmentLong" />
+          <ScalarProperty Name="EstablishmentTypeDesc" ColumnName="EstablishmentTypeDesc" />
+          <ScalarProperty Name="InspectionScore" ColumnName="InspectionScore" />
+          <ScalarProperty Name="InspectionDate" ColumnName="InspectionDate" />
+          <ScalarProperty Name="Core" ColumnName="Core" />
+          <ScalarProperty Name="Non_Critical" ColumnName="Non-Critical" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Priority_Foundation" ColumnName="Priority Foundation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

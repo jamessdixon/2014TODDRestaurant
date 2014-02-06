@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestaurantChickenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NonRestaurant">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InspectionID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="InspectorID" Type="Int32" />
+    <Property Name="EstablishmentID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentCity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmnetZipCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentLat" Type="Double" />
+    <Property Name="EstablishmentLong" Type="Double" />
+    <Property Name="EstablishmentTypeDesc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="InspectionScore" Type="Double" />
+    <Property Name="InspectionDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Restaurant">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InspectionID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="InspectorID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentCity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmnetZipCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EstablishmentLat" Type="Double" />
+    <Property Name="EstablishmentLong" Type="Double" />
+    <Property Name="EstablishmentTypeDesc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="InspectionScore" Type="Double" />
+    <Property Name="InspectionDate" Type="DateTime" Precision="3" />
+    <Property Name="Core" Type="Int32" />
+    <Property Name="Non_Critical" Type="Int32" />
+    <Property Name="Priority" Type="Int32" />
+    <Property Name="Priority_Foundation" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="RestaurantChickenEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NonRestaurants" EntityType="Self.NonRestaurant" />
+    <EntitySet Name="Restaurants" EntityType="Self.Restaurant" />
+  </EntityContainer>
+</Schema>
